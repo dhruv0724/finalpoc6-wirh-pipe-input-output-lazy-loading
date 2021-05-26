@@ -1,0 +1,44 @@
+.imgset {
+    margin-left: 25%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.disp {
+    top: 10px;
+    margin-left: 800px;
+    display: flex;
+    display: inline;
+}
+
+.btnsp {
+    margin: 5px
+}
+
+.cstmselect {
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+}
+
+.cstm {
+    text-align: center;
+}
+
+.imgsettbl {
+    width: 80px;
+    height: 120px;
+}
+
+.tddwid {
+    width: 150px;
+}
+
+.btntop {
+    margin-top: 10px;
+}

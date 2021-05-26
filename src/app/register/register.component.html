@@ -1,0 +1,47 @@
+<div class="container mrgn ">
+    <h2>New User Register</h2>
+    <div class=" form-group ">
+        <label>User id</label>
+        <input type="text " class="form-control " type="text " [(ngModel)]="empid ">
+
+    </div>
+    <div class=" form-group ">
+        <label>User Name</label>
+        <input type="text " class="form-control " type="text " [(ngModel)]="empname ">
+
+    </div>
+    <div class="form-group ">
+        <label>EmailId</label>
+        <input class="form-control " type="text " [(ngModel)]="email ">
+    </div>
+
+    <div class="form-group ">
+        <label>address</label>
+        <input class="form-control " type="text " [(ngModel)]="address ">
+    </div>
+    <div class="form-group ">
+        <label>phone</label>
+        <input class="form-control " type="text " [(ngModel)]="phone ">
+    </div>
+    <div class="form-group ">
+        <label>Password</label>
+        <input class="form-control " type="password" [(ngModel)]="emppass ">
+
+    </div>
+    <div class="form-group ">
+        <label>Confirm Password</label>
+        <input class="form-control " type="password" [(ngModel)]="empcpass ">
+
+    </div>
+    <div class="form-group ">
+        <label>Display Picture</label>
+        <input type="file" id="image" accept="image/*" />
+    </div>
+    <div class="container text-center">
+        <button class="btn btn-primary " (click)="signup() ">SignUp</button>
+    </div>
+    <br>
+    <div class="container text-center">
+        <button class="btn btn-primary " (click)="backtologin()">login</button>
+    </div>
+</div>

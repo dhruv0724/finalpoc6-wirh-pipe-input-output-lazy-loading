@@ -1,0 +1,10 @@
+.top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bdr {
+    border: solid 4px;
+    padding: 20px;
+    border-radius: 15px;
+}
